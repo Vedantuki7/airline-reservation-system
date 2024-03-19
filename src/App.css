@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+/* app.css */
+
+/* Container for the entire dashboard */
+.dashboard-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Heading style */
+.dashboard-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Container for form controls */
+.form-control-container {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styling for datepicker container */
+.datepicker-container {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for the Continue button */
+.continue-button {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for the dialog content */
+.dialog-content {
+  margin-bottom: 20px;
 }
+
+/* Styling for the dialog actions */
+.dialog-actions {
+  justify-content: space-between;
+}
+
+/* Styling for the dialog buttons */
+.dialog-button {
+  padding: 8px 16px;
+}
+
+/* Additional styles can be added as needed */
